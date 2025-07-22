@@ -281,21 +281,21 @@ Your `settings.json` file should look like this
 
 ### 3.3 Open Analysis Panel
 
-Click on `Open Analysis Panel` to view and manage your analysis tasks.
+1. Open the command palette by pressing `Command + Shift + P` and navigate to "Open Konveyor Analysis View". 
 
-![Open Analysis Panel](./images/analysis_panel.png)
+![Open Analysis Panel](./images/open_analysis_view.png)
 
 ### 3.4 Start the Analyzer Server
 
 In the top-right corner of the Analysis Panel, click `Start` to launch the analysis server.
 
-![Start Analyzer Server](./images/start_analysis.png)
+![Start Analyzer Server](./images/start_server_view.png)
 
 ### 3.5 Run Analysis
 
 Once the server is running, click `Run Analysis` to scan the project and identify issues based on the configured rulesets.
 
-![Run Analysis](./images/run_analysis.png)
+![Run Analysis](./images/run_analysis_button.png)
 
 ## 4. Analysis and Kai Resolutions
 
