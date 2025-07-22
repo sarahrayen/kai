@@ -241,11 +241,12 @@ Once you've installed the Konveyor AI VSCode extension and opened your project, 
 
 ### 3.1 Add Custom Rules
 
-1. Open the `Welcome -> Setup Konveyor panel`.
-2. Click on `Configure Custom Rules`.
+1. Open the `Konveyor Analysis View`.
+2. Click on the Gear Icon.
+3. Click `Set Rules` in Profile Manager.
 3. From the dialog, select the folder containing your custom rules (e.g., `custom_rules/springlogin`) and click Select Custom Rules.
 
-![Select Custom Rules](./images/custom_rules.png)
+![Select Custom Rules](./images/select_custom_rules.png)
 
 ### 3.2 Enable Default Rulesets
 

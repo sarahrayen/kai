@@ -35,7 +35,7 @@ We will focus on migrating a partially migrated [JavaEE Coolstore
 application](https://github.com/konveyor-ecosystem/coolstore.git) to Quarkus, a
 task that involves not only technical translation but also considerations for
 deployment to Kubernetes. By the end of this demo, you will understand how
-Konveyor AI (Kai) can assist and expedite the modernization process. .
+Konveyor AI (Kai) can assist and expedite the modernization process.
 
 ## Prerequisites
 
