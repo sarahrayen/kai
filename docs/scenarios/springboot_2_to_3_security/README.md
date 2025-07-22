@@ -250,9 +250,9 @@ Once you've installed the Konveyor AI VSCode extension and opened your project, 
 
 ### 3.2 Enable Default Rulesets
 
-When prompted, choose “Yes” to also include Konveyor's built-in default rulesets.
+Ensure the “Use Default Rules” toggle is switched on to include the standard rules provided by Konveyor.
 
-![Use Default Rulesets](./images/default_rulesets.png)
+![Use Default Rulesets](./images/default_rules.png)
 
 **Note:** This ensures both custom and default rules are applied during analysis.
 
@@ -264,9 +264,9 @@ Click on `configure Sources and Targets` and select the following targets
 - jakarta-ee
 - openjdk17
 
-Since the custom rules contain a custom target for Springboot3 rules, we need to configure the label selector. Click on `Configure Analysis Label Selector` and add the target `(konveyor.io/target=spring-boot3+)` and press `Enter`.
+Since the custom rules contain a custom target for Springboot3 rules, we need to configure the label selector. Click on the Gear icon and edit the Target Technologies in Profile Manager and add the targets from above. 
 
-![Label selector](./images/label_selector.png)
+![Label selector](./images/target_technologies.png)
 
 Your `settings.json` file should look like this
 
