@@ -104,10 +104,10 @@ Let's perform our initial analysis:
    ![run_analysis](/docs/scenarios/javaEE_to_quarkus/images/run_analysis.png)
 
 2. The Konveyor Analysis View lists issues, allowing you to filter them by file issues. On the left side, the Konveyor Issue Panel groups files based on similar issues for easier navigation.
-   ![konveyor_analysis_view](/docs/scenarios/javaEE_to_quarkus/images/konveyor_analysis_view.png)
+   ![konveyor_analysis_view](/docs/scenarios/javaEE_to_quarkus/images/organize_by_severity.png)
 
 If you lose the "Konveyor Analysis View" window, press Command + Shift + P to open the Command Palette, then search for and select the Analysis View window. Alternatively, click the editor icon under the Konveyor Issue panel to reopen it.
-![konveyor_analysis_view_1](/docs/scenarios/javaEE_to_quarkus/images/konveyor_analysis_view_1.png)
+![konveyor_analysis_view_1](/docs/scenarios/javaEE_to_quarkus/images/open_konveyor_analysis_view.png)
 
 Once the analysis is complete, you will see many incidents. However, let's focus on fixing only the 6 files necessary to migrate the Coolstore application.
 
@@ -115,14 +115,12 @@ Once the analysis is complete, you will see many incidents. However, let's focus
 - `src/main/java/com/redhat/coolstore/model/InventoryEntity.java`
 - `src/main/java/com/redhat/coolstore/service/CatalogService.java`
 - `src/main/java/com/redhat/coolstore/service/ShippingService.java`
-- `src/main/java/com/redhat/coolstore/service/InventoryNotificationMDB.java`
-- `src/main/java/com/redhat/coolstore/service/OrderServiceMDB.java`
+- `src/main/java/com/redhat/coolstore/service/ShoppingCartOrderProcessor.java`
+- `src/main/java/com/redhat/coolstore/resources/application.properties`
+- `src/main/java/com/redhat/coolstore/pom.xml`
 
 > [!NOTE]
 >
-> While the file `src/main/java/com/redhat/coolstore/rest/RestApplication.java`
-> is flagged, for the purpose of this demo it is okay to skip that file and
-> proceed.
 
 The incidents in the above files will provide insights into potential issues or
 areas that require attention during the migration process.
